@@ -3,33 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TeamTrack</title>
+    <title>Team Track</title>
     <link rel="stylesheet" href="../css/home.css">
 </head>
 <body>
-    <body>
-        <div class="container">
-            <h1>Employee Management Software</h1>
-            <button id="addEmployeeBtn">Add Employee</button>
-            <table id="employeeTable">
-                <thead>
-                    <tr>
-                        <th>No.</th>
-                        <th>Name</th>
-                        <th>Phone</th>
-                        <th>Passport</th>
-                        <th>Expiration Date</th>
-                        <th>Salary</th>
+    <button id="addEmployee">Add Employee</button>
+    <table class="main">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Contact Number</th>
+            <th>Passport Number</th>
+            <th>Passport Validity</th>
+            <th>Salary</th>
+        </tr>
+        <!-- entries -->
+        <tr>
 
-                    </tr>
-                </thead>
-                <tbody id="employeeTableBody">
-                    <!-- Employee rows will be added here dynamically -->
-                </tbody>
-            </table>
-        </div>
-
-
+        </tr>
+    </table>
     <script src="../js/home.js"></script>
 </body>
 </html>
